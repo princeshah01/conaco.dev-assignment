@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+:root {
+  --background: 247 247 251;
+  --foreground: 26 26 46;
+
+  --card: 255 255 255;
+  --card-foreground: 26 26 46;
+
+  --popover: 255 255 255;
+  --popover-foreground: 26 26 46;
+
+  --primary: 232 54 93;
+  --primary-foreground: 255 255 255;
+
+  --secondary: 240 240 248;
+  --secondary-foreground: 74 74 106;
+
+  --muted: 247 247 251;
+  --muted-foreground: 152 152 176;
+
+  --accent: 255 238 243;
+  --accent-foreground: 232 54 93;
+
+  --destructive: 239 68 68;
+
+  --border: 26 26 46;
+  --input: 26 26 46;
+  --ring: 232 54 93;
+
+  --success: 29 170 107;
+  --warning: 245 155 0;
+  --info: 26 115 232;
+
+  --rose: 232 54 93;
+  --rose-light: 255 238 243;
+  --rose-muted: 249 201 214;
+  --ink: 26 26 46;
+  --ink-soft: 74 74 106;
+  --ink-muted: 152 152 176;
+  --surface: 255 255 255;
+  --surface-2: 247 247 251;
+  --surface-3: 240 240 248;
+  --green-light: 232 248 241;
+  --amber-light: 255 248 236;
+  --blue-light: 232 241 253;
+  --border-soft: 26 26 46;
+}
+
+.dark {
+  --background: 9 9 11;
+  --foreground: 250 250 250;
+
+  --card: 24 24 27;
+  --card-foreground: 250 250 250;
+
+  --popover: 24 24 27;
+  --popover-foreground: 250 250 250;
+
+  --primary: 255 77 115;
+  --primary-foreground: 255 255 255;
+
+  --secondary: 39 39 42;
+  --secondary-foreground: 212 212 216;
+
+  --muted: 24 24 27;
+  --muted-foreground: 161 161 170;
+
+  --accent: 59 31 39;
+  --accent-foreground: 255 143 168;
+
+  --destructive: 239 68 68;
+
+  --border: 255 255 255;
+  --input: 255 255 255;
+  --ring: 255 77 115;
+
+  --success: 34 197 94;
+  --warning: 245 158 11;
+  --info: 59 130 246;
+
+  --rose: 255 77 115;
+  --rose-light: 59 31 39;
+  --rose-muted: 89 45 59;
+  --ink: 26 26 46;
+  --ink-soft: 212 212 216;
+  --ink-muted: 161 161 170;
+  --surface: 24 24 27;
+  --surface-2: 9 9 11;
+  --surface-3: 39 39 42;
+  --green-light: 20 83 45;
+  --amber-light: 69 46 14;
+  --blue-light: 30 58 138;
+  --border-soft: 255 255 255;
+}
